@@ -7,5 +7,5 @@ ipythonnotebook:
     USE_HTTP: 1
     DISPLAY: :0
   volumes:
-   - ~/data:/data
+   - .:/data
    - /tmp/.X11-unix:/tmp/.X11-unix
