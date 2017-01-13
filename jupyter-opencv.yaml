@@ -1,9 +1,7 @@
----
-
 ipythonnotebook:
-  image: trafferty/jupyter-opencv
+  build: .
   ports:
-   - "80:8888"
+   - "8888:8888"
   environment:
     PASSWORD: '*ipython*'
     USE_HTTP: 1

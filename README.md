@@ -6,9 +6,9 @@ Based off of [jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-not
 jupyter/scipy-notebook
 ### Usage
 ##### (Assumes that docker has been installed.  If not, start [here](https://docs.docker.com/installation/#installation).)
-Pull it:
+Build it:
 ```
-    docker pull trafferty/jupyter-opencv
+    docker-compose -f jupyter-opencv.yaml build
 ```
 Run it:
 ```
